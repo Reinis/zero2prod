@@ -34,7 +34,7 @@ jobs:
           --no-default-features
           --locked
       - name: install postgresql-client
-        run: sudo apt update && sudo apt install postgresql-client -y
+        run: sudo apt-get update && sudo apt-get install postgresql-client -y
       - name: Migrate database
         run: SKIP_DOCKER=true ./scripts/init_db.sh
       - name: Run tests
@@ -79,7 +79,7 @@ jobs:
           --no-default-features
           --locked
       - name: install postgresql-client
-        run: sudo apt update && sudo apt install postgresql-client -y
+        run: sudo apt-get update && sudo apt-get install postgresql-client -y
       - name: Migrate database
         run: SKIP_DOCKER=true ./scripts/init_db.sh
       - name: Linting
@@ -115,7 +115,7 @@ jobs:
           --no-default-features
           --locked
       - name: install postgresql-client
-        run: sudo apt update && sudo apt install postgresql-client -y
+        run: sudo apt-get update && sudo apt-get install postgresql-client -y
       - name: Migrate database
         run: SKIP_DOCKER=true ./scripts/init_db.sh
       - name: Generate code coverage
