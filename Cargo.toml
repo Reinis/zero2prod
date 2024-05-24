@@ -22,6 +22,10 @@ log = "0.4"
 reqwest = "0.12"
 serde = { version = "1", features = ["derive"] }
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+tracing = { version = "0.1", features = ["log"] }
+tracing-bunyan-formatter = { version = "0.3" }
+tracing-log = { version = "0.2" }
+tracing-subscriber = { version = "0.3", features = ["registry", "env-filter"] }
 uuid = { version = "1", features = ["v4"] }
 
 [dependencies.sqlx]
