@@ -15,8 +15,16 @@ pub struct TestApp {
 
 async fn spawn_app() -> TestApp {
     TRACING.get_or_init(|| {
-        let subscriber = get_subscriber("zero2prod".into(), "info".into());
-        init_subscriber(subscriber);
+        let default_filter_level = "info".into();
+        let subscriber_name = "test".into();
+
+        if std::env::var("TEST_LOG").is_ok() {
+            let subscriber = get_subscriber(subscriber_name, default_filter_level, std::io::stdout);
+            init_subscriber(subscriber);
+        } else {
+            let subscriber = get_subscriber(subscriber_name, default_filter_level, std::io::sink);
+            init_subscriber(subscriber);
+        }
     });
 
     let listener = TcpListener::bind("127.0.0.1:0").expect("Failed to bind random port");
