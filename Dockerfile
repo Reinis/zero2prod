@@ -1,4 +1,4 @@
-FROM rust:1.78 AS builder
+FROM lukemathwalker/cargo-chef:latest-rust-1 AS chef
 
 WORKDIR /app
 RUN apt-get update -y \
@@ -6,9 +6,20 @@ RUN apt-get update -y \
   # Clean up
   && apt-get autoremove -y \
   && apt-get clean -y
+
+FROM chef AS planner
+
+COPY . .
+RUN cargo chef prepare --recipe-path recipe.json
+
+FROM chef AS builder
+
+COPY --from=planner /app/recipe.json recipe.json
+# Cache built dependencies
+RUN cargo chef cook --release --recipe-path recipe.json
 COPY . .
 ENV SQLX_OFFLINE=true
-RUN cargo build --release
+RUN cargo build --release --bin zero2prod
 
 FROM debian:bookworm-slim AS runtime
 
