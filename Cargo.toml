@@ -19,9 +19,9 @@ strip = true
 [dependencies]
 actix-web = "4"
 chrono = { version = "0.4", default-features = false, features = ["clock"] }
-config = "0.14"
+config = "0.15"
 reqwest = "0.12"
-secrecy = { version = "0.8", features = ["serde"] }
+secrecy = { version = "0.10", features = ["serde"] }
 serde = { version = "1", features = ["derive"] }
 serde-aux = { version = "4" }
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
