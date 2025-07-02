@@ -99,9 +99,8 @@ impl TryFrom<String> for Environment {
             "production" => Ok(Self::Production),
             "docker" => Ok(Self::Docker),
             other => Err(format!(
-                "{} is not a supported environment. \
+                "{other} is not a supported environment. \
                 Use either `local` or `production`.",
-                other
             )),
         }
     }
