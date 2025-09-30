@@ -4,6 +4,9 @@
 [cargo-vet]
 version = "0.10"
 
+[imports.bytecode-alliance]
+url = "https://raw.githubusercontent.com/bytecodealliance/wasmtime/main/supply-chain/audits.toml"
+
 [imports.isrg]
 url = "https://raw.githubusercontent.com/divviup/libprio-rs/main/supply-chain/audits.toml"
 
@@ -107,10 +110,6 @@ criteria = "safe-to-deploy"
 version = "0.21.7"
 criteria = "safe-to-deploy"
 
-[[exemptions.base64]]
-version = "0.22.1"
-criteria = "safe-to-deploy"
-
 [[exemptions.base64ct]]
 version = "1.8.0"
 criteria = "safe-to-deploy"
@@ -131,10 +130,6 @@ criteria = "safe-to-deploy"
 version = "5.0.0"
 criteria = "safe-to-deploy"
 
-[[exemptions.bumpalo]]
-version = "3.19.0"
-criteria = "safe-to-deploy"
-
 [[exemptions.byteorder]]
 version = "1.5.0"
 criteria = "safe-to-deploy"
@@ -149,10 +144,6 @@ criteria = "safe-to-deploy"
 
 [[exemptions.cc]]
 version = "1.2.37"
-criteria = "safe-to-deploy"
-
-[[exemptions.cfg-if]]
-version = "1.0.3"
 criteria = "safe-to-deploy"
 
 [[exemptions.chrono]]
@@ -311,36 +302,16 @@ criteria = "safe-to-deploy"
 version = "0.1.5"
 criteria = "safe-to-deploy"
 
-[[exemptions.foreign-types]]
-version = "0.3.2"
-criteria = "safe-to-deploy"
-
-[[exemptions.foreign-types-shared]]
-version = "0.1.1"
-criteria = "safe-to-deploy"
-
 [[exemptions.form_urlencoded]]
 version = "1.2.2"
-criteria = "safe-to-deploy"
-
-[[exemptions.futures-channel]]
-version = "0.3.31"
 criteria = "safe-to-deploy"
 
 [[exemptions.futures-core]]
 version = "0.3.31"
 criteria = "safe-to-deploy"
 
-[[exemptions.futures-executor]]
-version = "0.3.31"
-criteria = "safe-to-deploy"
-
 [[exemptions.futures-intrusive]]
 version = "0.5.0"
-criteria = "safe-to-deploy"
-
-[[exemptions.futures-io]]
-version = "0.3.31"
 criteria = "safe-to-deploy"
 
 [[exemptions.futures-sink]]
@@ -457,10 +428,6 @@ criteria = "safe-to-deploy"
 
 [[exemptions.iana-time-zone]]
 version = "0.1.64"
-criteria = "safe-to-deploy"
-
-[[exemptions.iana-time-zone-haiku]]
-version = "0.1.2"
 criteria = "safe-to-deploy"
 
 [[exemptions.icu_collections]]
@@ -599,20 +566,12 @@ criteria = "safe-to-deploy"
 version = "0.3.17"
 criteria = "safe-to-deploy"
 
-[[exemptions.miniz_oxide]]
-version = "0.8.9"
-criteria = "safe-to-deploy"
-
 [[exemptions.mio]]
 version = "1.0.4"
 criteria = "safe-to-deploy"
 
 [[exemptions.mutually_exclusive_features]]
 version = "0.1.0"
-criteria = "safe-to-deploy"
-
-[[exemptions.native-tls]]
-version = "0.2.14"
 criteria = "safe-to-deploy"
 
 [[exemptions.nu-ansi-term]]
@@ -633,10 +592,6 @@ criteria = "safe-to-deploy"
 
 [[exemptions.num-iter]]
 version = "0.1.45"
-criteria = "safe-to-deploy"
-
-[[exemptions.num-traits]]
-version = "0.2.19"
 criteria = "safe-to-deploy"
 
 [[exemptions.object]]
@@ -721,10 +676,6 @@ criteria = "safe-to-deploy"
 
 [[exemptions.pin-project-lite]]
 version = "0.2.16"
-criteria = "safe-to-deploy"
-
-[[exemptions.pin-utils]]
-version = "0.1.0"
 criteria = "safe-to-deploy"
 
 [[exemptions.pkcs1]]
@@ -1055,10 +1006,6 @@ criteria = "safe-to-deploy"
 version = "2.5.0"
 criteria = "safe-to-deploy"
 
-[[exemptions.tokio-native-tls]]
-version = "0.3.1"
-criteria = "safe-to-deploy"
-
 [[exemptions.tokio-rustls]]
 version = "0.26.3"
 criteria = "safe-to-deploy"
@@ -1191,10 +1138,6 @@ criteria = "safe-to-deploy"
 version = "0.1.1"
 criteria = "safe-to-deploy"
 
-[[exemptions.vcpkg]]
-version = "0.2.15"
-criteria = "safe-to-deploy"
-
 [[exemptions.version_check]]
 version = "0.9.5"
 criteria = "safe-to-deploy"
@@ -1205,14 +1148,6 @@ criteria = "safe-to-deploy"
 
 [[exemptions.wasi]]
 version = "0.11.1+wasi-snapshot-preview1"
-criteria = "safe-to-deploy"
-
-[[exemptions.wasi]]
-version = "0.14.7+wasi-0.2.4"
-criteria = "safe-to-deploy"
-
-[[exemptions.wasip2]]
-version = "1.0.1+wasi-0.2.4"
 criteria = "safe-to-deploy"
 
 [[exemptions.wasite]]
@@ -1397,10 +1332,6 @@ criteria = "safe-to-deploy"
 
 [[exemptions.winnow]]
 version = "0.7.13"
-criteria = "safe-to-deploy"
-
-[[exemptions.wit-bindgen]]
-version = "0.46.0"
 criteria = "safe-to-deploy"
 
 [[exemptions.writeable]]
