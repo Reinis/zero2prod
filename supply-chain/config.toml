@@ -56,10 +56,6 @@ criteria = "safe-to-deploy"
 version = "4.3.0"
 criteria = "safe-to-deploy"
 
-[[exemptions.addr2line]]
-version = "0.24.2"
-criteria = "safe-to-deploy"
-
 [[exemptions.adler2]]
 version = "2.0.1"
 criteria = "safe-to-deploy"
@@ -84,16 +80,8 @@ criteria = "safe-to-deploy"
 version = "2.0.0"
 criteria = "safe-to-deploy"
 
-[[exemptions.atomic-waker]]
-version = "1.1.2"
-criteria = "safe-to-deploy"
-
 [[exemptions.autocfg]]
 version = "1.5.0"
-criteria = "safe-to-deploy"
-
-[[exemptions.backtrace]]
-version = "0.3.75"
 criteria = "safe-to-deploy"
 
 [[exemptions.base64]]
@@ -102,10 +90,6 @@ criteria = "safe-to-deploy"
 
 [[exemptions.base64ct]]
 version = "1.8.0"
-criteria = "safe-to-deploy"
-
-[[exemptions.bitflags]]
-version = "2.9.4"
 criteria = "safe-to-deploy"
 
 [[exemptions.block-buffer]]
@@ -236,10 +220,6 @@ criteria = "safe-to-deploy"
 version = "0.1.1"
 criteria = "safe-to-deploy"
 
-[[exemptions.flate2]]
-version = "1.1.2"
-criteria = "safe-to-deploy"
-
 [[exemptions.flume]]
 version = "0.11.1"
 criteria = "safe-to-deploy"
@@ -336,10 +316,6 @@ criteria = "safe-to-deploy"
 version = "0.1.9"
 criteria = "safe-to-deploy"
 
-[[exemptions.io-uring]]
-version = "0.7.10"
-criteria = "safe-to-deploy"
-
 [[exemptions.ipnet]]
 version = "2.11.0"
 criteria = "safe-to-deploy"
@@ -396,14 +372,6 @@ criteria = "safe-to-deploy"
 version = "0.4.13"
 criteria = "safe-to-deploy"
 
-[[exemptions.log]]
-version = "0.4.28"
-criteria = "safe-to-deploy"
-
-[[exemptions.matchers]]
-version = "0.2.0"
-criteria = "safe-to-deploy"
-
 [[exemptions.md-5]]
 version = "0.10.6"
 criteria = "safe-to-deploy"
@@ -424,16 +392,8 @@ criteria = "safe-to-deploy"
 version = "0.1.0"
 criteria = "safe-to-deploy"
 
-[[exemptions.nu-ansi-term]]
-version = "0.50.1"
-criteria = "safe-to-deploy"
-
 [[exemptions.num-bigint-dig]]
 version = "0.8.4"
-criteria = "safe-to-deploy"
-
-[[exemptions.object]]
-version = "0.36.7"
 criteria = "safe-to-deploy"
 
 [[exemptions.once_cell]]
@@ -566,10 +526,6 @@ criteria = "safe-to-deploy"
 
 [[exemptions.rust-ini]]
 version = "0.21.3"
-criteria = "safe-to-deploy"
-
-[[exemptions.rustc-demangle]]
-version = "0.1.26"
 criteria = "safe-to-deploy"
 
 [[exemptions.rustix]]
@@ -772,24 +728,12 @@ criteria = "safe-to-deploy"
 version = "0.7.19"
 criteria = "safe-to-deploy"
 
-[[exemptions.tracing-attributes]]
-version = "0.1.30"
-criteria = "safe-to-deploy"
-
 [[exemptions.tracing-bunyan-formatter]]
 version = "0.3.10"
 criteria = "safe-to-deploy"
 
-[[exemptions.tracing-core]]
-version = "0.1.34"
-criteria = "safe-to-deploy"
-
 [[exemptions.tracing-log]]
 version = "0.1.4"
-criteria = "safe-to-deploy"
-
-[[exemptions.tracing-log]]
-version = "0.2.0"
 criteria = "safe-to-deploy"
 
 [[exemptions.try-lock]]
@@ -902,10 +846,6 @@ criteria = "safe-to-deploy"
 
 [[exemptions.windows-link]]
 version = "0.1.3"
-criteria = "safe-to-deploy"
-
-[[exemptions.windows-link]]
-version = "0.2.0"
 criteria = "safe-to-deploy"
 
 [[exemptions.windows-registry]]
