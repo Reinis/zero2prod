@@ -16,6 +16,11 @@ who = "Reinis Danne <rei4dan@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.3.75 -> 0.3.76"
 
+[[audits.bitflags]]
+who = "Reinis Danne <rei4dan@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "2.9.4 -> 2.10.0"
+
 [[audits.cc]]
 who = "Reinis Danne <rei4dan@gmail.com>"
 criteria = "safe-to-deploy"
@@ -30,6 +35,11 @@ delta = "1.2.39 -> 1.2.40"
 who = "Reinis Danne <rei4dan@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "1.2.40 -> 1.2.41"
+
+[[audits.cc]]
+who = "Reinis Danne <rei4dan@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "1.2.41 -> 1.2.43"
 
 [[audits.cfg-if]]
 who = "Reinis Danne <rei4dan@gmail.com>"
@@ -46,6 +56,11 @@ who = "Reinis Danne <rei4dan@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.5.3 -> 0.5.4"
 
+[[audits.deranged]]
+who = "Reinis Danne <rei4dan@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "0.5.4 -> 0.5.5"
+
 [[audits.find-msvc-tools]]
 who = "Reinis Danne <rei4dan@gmail.com>"
 criteria = "safe-to-deploy"
@@ -61,6 +76,11 @@ who = "Reinis Danne <rei4dan@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.1.3 -> 0.1.4"
 
+[[audits.flate2]]
+who = "Reinis Danne <rei4dan@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "1.1.4 -> 1.1.5"
+
 [[audits.generic-array]]
 who = "Reinis Danne <rei4dan@gmail.com>"
 criteria = "safe-to-deploy"
@@ -75,6 +95,11 @@ delta = "0.3.3 -> 0.3.4"
 who = "Reinis Danne <rei4dan@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.32.0 -> 0.32.3"
+
+[[audits.home]]
+who = "Reinis Danne <rei4dan@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "0.5.11 -> 0.5.12"
 
 [[audits.indexmap]]
 who = "Reinis Danne <rei4dan@gmail.com>"
@@ -210,6 +235,11 @@ delta = "0.23.31 -> 0.23.32"
 who = "Reinis Danne <rei4dan@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.23.32 -> 0.23.33"
+
+[[audits.rustls]]
+who = "Reinis Danne <rei4dan@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "0.23.33 -> 0.23.34"
 
 [[audits.rustls-webpki]]
 who = "Reinis Danne <rei4dan@gmail.com>"
