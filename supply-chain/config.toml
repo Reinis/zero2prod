@@ -80,10 +80,6 @@ criteria = "safe-to-deploy"
 version = "1.5.0"
 criteria = "safe-to-deploy"
 
-[[exemptions.base64]]
-version = "0.21.7"
-criteria = "safe-to-deploy"
-
 [[exemptions.base64ct]]
 version = "1.8.0"
 criteria = "safe-to-deploy"
@@ -564,10 +560,6 @@ criteria = "safe-to-deploy"
 version = "4.7.0"
 criteria = "safe-to-deploy"
 
-[[exemptions.serde_spanned]]
-version = "1.0.2"
-criteria = "safe-to-deploy"
-
 [[exemptions.serde_urlencoded]]
 version = "0.7.1"
 criteria = "safe-to-deploy"
@@ -780,10 +772,6 @@ criteria = "safe-to-deploy"
 version = "0.2.103"
 criteria = "safe-to-deploy"
 
-[[exemptions.wasm-bindgen-backend]]
-version = "0.2.103"
-criteria = "safe-to-deploy"
-
 [[exemptions.wasm-bindgen-futures]]
 version = "0.4.53"
 criteria = "safe-to-deploy"
@@ -840,24 +828,12 @@ criteria = "safe-to-deploy"
 version = "0.59.1"
 criteria = "safe-to-deploy"
 
-[[exemptions.windows-link]]
-version = "0.1.3"
-criteria = "safe-to-deploy"
-
 [[exemptions.windows-registry]]
 version = "0.5.3"
 criteria = "safe-to-deploy"
 
 [[exemptions.windows-result]]
-version = "0.3.4"
-criteria = "safe-to-deploy"
-
-[[exemptions.windows-result]]
 version = "0.4.0"
-criteria = "safe-to-deploy"
-
-[[exemptions.windows-strings]]
-version = "0.4.2"
 criteria = "safe-to-deploy"
 
 [[exemptions.windows-strings]]
