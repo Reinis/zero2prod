@@ -288,10 +288,6 @@ criteria = "safe-to-deploy"
 version = "0.27.7"
 criteria = "safe-to-deploy"
 
-[[exemptions.hyper-tls]]
-version = "0.6.0"
-criteria = "safe-to-deploy"
-
 [[exemptions.hyper-util]]
 version = "0.1.17"
 criteria = "safe-to-deploy"
@@ -344,10 +340,6 @@ criteria = "safe-to-deploy"
 version = "0.30.1"
 criteria = "safe-to-deploy"
 
-[[exemptions.linux-raw-sys]]
-version = "0.11.0"
-criteria = "safe-to-deploy"
-
 [[exemptions.local-channel]]
 version = "0.1.5"
 criteria = "safe-to-deploy"
@@ -388,16 +380,8 @@ criteria = "safe-to-deploy"
 version = "1.21.3"
 criteria = "safe-to-deploy"
 
-[[exemptions.openssl]]
-version = "0.10.73"
-criteria = "safe-to-deploy"
-
 [[exemptions.openssl-probe]]
 version = "0.1.6"
-criteria = "safe-to-deploy"
-
-[[exemptions.openssl-sys]]
-version = "0.9.109"
 criteria = "safe-to-deploy"
 
 [[exemptions.ordered-float]]
@@ -502,10 +486,6 @@ criteria = "safe-to-deploy"
 
 [[exemptions.rust-ini]]
 version = "0.21.3"
-criteria = "safe-to-deploy"
-
-[[exemptions.rustix]]
-version = "1.1.2"
 criteria = "safe-to-deploy"
 
 [[exemptions.rustls]]
@@ -618,10 +598,6 @@ criteria = "safe-to-deploy"
 
 [[exemptions.system-configuration-sys]]
 version = "0.6.0"
-criteria = "safe-to-deploy"
-
-[[exemptions.tempfile]]
-version = "3.22.0"
 criteria = "safe-to-deploy"
 
 [[exemptions.thread_local]]
