@@ -58,8 +58,8 @@ user-login = "dtolnay"
 user-name = "David Tolnay"
 
 [[publisher.quote]]
-version = "1.0.43"
-when = "2026-01-05"
+version = "1.0.44"
+when = "2026-01-23"
 user-id = 3618
 user-login = "dtolnay"
 user-name = "David Tolnay"
